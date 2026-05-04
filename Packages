@@ -102,3 +102,19 @@ Description: LCCV (libcamera bindings for OpenCV) (documentation)
  LCCV (libcamera bindings for OpenCV) is a small wrapper library that provides access to the Raspberry Pi camera in OpenCV.
  This package provides the documentation.
 
+Package: libmavlink-dev
+Source: libmavlink
+Version: 2.0
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 6648
+Filename: ./libmavlink-dev_2.0_arm64.deb
+Size: 367060
+MD5sum: 30c3b8dce4fee1cf592b7ee7fc63f50b
+SHA1: fe3fd9c1197a35448d9d9c8d8625e6569abadc35
+SHA256: d77b902a9944d44ccecdb5fb047b81c5dd818080c8f7f7d2eace1d8be982b46b
+Section: libs
+Priority: optional
+Description: Marshalling / communication library for drones.
+ This package provides the development headers and cmake config files.
+
