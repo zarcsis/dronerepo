@@ -1,0 +1,104 @@
+Package: libdatachannel
+Version: 0.24.2
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 3172
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14)
+Filename: ./libdatachannel_0.24.2_arm64.deb
+Size: 816112
+MD5sum: 55de782e6014d5c1770c9e2dfe7726f3
+SHA1: 59d95a13674e55023602036ead9cb0c01209657d
+SHA256: e61f476cfd39da3b233025bbbc6908b42ec955dfa7e1fd97b4637ef4d208f33f
+Section: libs
+Priority: optional
+Description: C/C++ WebRTC network library (runtime)
+ C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets.
+ This package provides the shared libraries.
+
+Package: libdatachannel-dev
+Source: libdatachannel
+Version: 0.24.2
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 157
+Depends: libdatachannel (= 0.24.2)
+Filename: ./libdatachannel-dev_0.24.2_arm64.deb
+Size: 27428
+MD5sum: 44f05c96e6fe793a57a04dc8b6a1452a
+SHA1: fc8a82f48ce28402998ef5793e6538bb37ad977a
+SHA256: 7e5974cfc93d5fa7dcbd97caa7e1798fdaf765e864a7c4eeb032707ea1a9a8e1
+Section: libdevel
+Priority: optional
+Description: C/C++ WebRTC network library (development)
+ C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets.
+ This package provides the development headers and cmake config files.
+
+Package: libdatachannel-doc
+Source: libdatachannel
+Version: 0.24.2
+Architecture: all
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 25
+Filename: ./libdatachannel-doc_0.24.2_all.deb
+Size: 14528
+MD5sum: 003e6714885e0370cbcaf082d3179493
+SHA1: 3dbcd301355e167e0f24b9f08847a425e85f86b0
+SHA256: 6d47239d1b71028866e8f829df230f0e4d461662303d508778cbac97a2add270
+Section: doc
+Priority: optional
+Description: C/C++ WebRTC network library (documentation)
+ C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets.
+ This package provides the documentation.
+
+Package: liblccv
+Version: 0.0.1
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 142
+Depends: libc6 (>= 2.34), libcamera0.7 (>= 0.7.0+rpt20260205), libgcc-s1 (>= 3.0), libopencv-core410 (>= 4.10.0+dfsg), libstdc++6 (>= 13.1)
+Filename: ./liblccv_0.0.1_arm64.deb
+Size: 36820
+MD5sum: e8a8baa8552b82ecdde28be8640a5ad0
+SHA1: 026d8535d35fdd2667baaa7c1d58c50b99b5ef07
+SHA256: 03de12fe186cebdce6cd01e06ff47cfbaf4141a71aa1c1bc929ac73697e1db44
+Section: libs
+Priority: optional
+Description: LCCV (libcamera bindings for OpenCV) (runtime)
+ LCCV (libcamera bindings for OpenCV) is a small wrapper library that provides access to the Raspberry Pi camera in OpenCV.
+ This package provides the shared libraries.
+
+Package: liblccv-dev
+Source: liblccv
+Version: 0.0.1
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 25
+Depends: liblccv (= 0.0.1)
+Filename: ./liblccv-dev_0.0.1_arm64.deb
+Size: 5856
+MD5sum: 1e6abf653847b147c29ecc82765d4a50
+SHA1: 8f8ace8f05cc07463723d8b33926077c9933cfcf
+SHA256: d417b9bd990dd547177bdfa490baaf2a7827e392a94138f749fb67ec38564cca
+Section: libdevel
+Priority: optional
+Description: LCCV (libcamera bindings for OpenCV) (development)
+ LCCV (libcamera bindings for OpenCV) is a small wrapper library that provides access to the Raspberry Pi camera in OpenCV.
+ This package provides the development headers and cmake config files.
+
+Package: liblccv-doc
+Source: liblccv
+Version: 0.0.1
+Architecture: all
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 12
+Filename: ./liblccv-doc_0.0.1_all.deb
+Size: 2520
+MD5sum: f626a53717ca63f540644fe3c442fb58
+SHA1: 2ace3aee6bc9e3d69f6ff98b77511c0d06878c5b
+SHA256: a144eb6e1e2f1aef046cb172d16c79a59de7a447ac3034b2742b2a66f96d6d20
+Section: doc
+Priority: optional
+Description: LCCV (libcamera bindings for OpenCV) (documentation)
+ LCCV (libcamera bindings for OpenCV) is a small wrapper library that provides access to the Raspberry Pi camera in OpenCV.
+ This package provides the documentation.
+
