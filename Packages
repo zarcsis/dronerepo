@@ -50,6 +50,22 @@ Description: C/C++ WebRTC network library (documentation)
  C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets.
  This package provides the documentation.
 
+Package: libevents-dev
+Source: libevents
+Version: 0.1
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 522
+Filename: ./libevents-dev_0.1_arm64.deb
+Size: 82412
+MD5sum: 1318592cc39ff29f56cfcc308d2952ec
+SHA1: 657f1a32f0bfc32aff2bdfe5d57c486608839715
+SHA256: 4d3d870c40f8edbb4a13735875622ef89d81894326c0966f354c95a4ce1d93e6
+Section: libs
+Priority: optional
+Description: Marshalling / communication library for drones.
+ This package provides the development headers and cmake config files.
+
 Package: liblccv
 Version: 0.0.1
 Architecture: arm64
