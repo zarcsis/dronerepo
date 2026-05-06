@@ -109,10 +109,10 @@ Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 12632
 Filename: ./libmavlink-cpp-dev_0.0.1_arm64.deb
-Size: 403428
-MD5sum: fe341a43098623750c14bd11a579a332
-SHA1: 0ca9038cd910104e045badbe6f8823afc9096d4b
-SHA256: caa70beb2c72f943b3d427211a2a1f2601649901336ecdce1d651339792edc57
+Size: 403380
+MD5sum: 11c415d8af6fae3acfe68ed2d1536d7a
+SHA1: a26b8980c3516f5224b06ba33bd16e16e74ca1b0
+SHA256: 2a0b6d47988aa1189e5ba22191d071c2c4b9fb7088d6e74305f41859824cd2e5
 Section: libs
 Priority: optional
 Description: Lightweight C++ MAVLink interface (development)
