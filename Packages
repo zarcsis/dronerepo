@@ -118,3 +118,55 @@ Priority: optional
 Description: Lightweight C++ MAVLink interface (development)
  This package provides the development headers and cmake config files.
 
+Package: libmsp
+Version: 3.4.0
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 337
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
+Filename: ./libmsp_3.4.0_arm64.deb
+Size: 78408
+MD5sum: 4c203baba5e7e0e65faab2659be7636b
+SHA1: c988d6d07f78c3a30216151b738a14ed85eb8ee9
+SHA256: 6bb1c2c513462b8ee27613549897aad4f5d4d742d6c8f9bd7249d0be1de9a64d
+Section: libs
+Priority: optional
+Description: Reefwing MultiWii Serial Protocol (runtime)
+ Implementation of the MultiWii Serial Protocol (MSP) for MultiWii and Cleanflight flight controller
+ This package provides the shared libraries.
+
+Package: libmsp-dev
+Source: libmsp
+Version: 3.4.0
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 245
+Depends: libmsp (= 3.4.0)
+Filename: ./libmsp-dev_3.4.0_arm64.deb
+Size: 33404
+MD5sum: 08629660c1ed66f7f019f743207c3d51
+SHA1: fdc999c522d1c78c8e1a9f43ad726859fde7b2e1
+SHA256: a283b0a0b90c59fa405bea237405b4387503576b0ef7b775c653b581dc1b1af8
+Section: libdevel
+Priority: optional
+Description: Reefwing MultiWii Serial Protocol (development)
+ Implementation of the MultiWii Serial Protocol (MSP) for MultiWii and Cleanflight flight controller
+ This package provides the development headers and cmake config files.
+
+Package: libmsp-doc
+Source: libmsp
+Version: 3.4.0
+Architecture: all
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 13
+Filename: ./libmsp-doc_3.4.0_all.deb
+Size: 4548
+MD5sum: ca2aa87b84f3f080cc7450ba5914c59e
+SHA1: b6079ee0ca60e0fad76477bc6f5f274823d5dd32
+SHA256: b1e4eb862de62ab4c60a2194fa3bd082f5177730d103b92c15e14a3b156b0555
+Section: doc
+Priority: optional
+Description: Reefwing MultiWii Serial Protocol (documentation)
+ Implementation of the MultiWii Serial Protocol (MSP) for MultiWii and Cleanflight flight controller
+ This package provides the documentation.
+
