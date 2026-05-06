@@ -1,3 +1,19 @@
+Package: drone-starter
+Version: 1.2.3
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 1498
+Depends: libc6 (>= 2.38), libcamera0.7 (>= 0.7.0+rpt20260205), libcurl4t64 (>= 7.16.2), libdatachannel (>= 0.24.2), libgcc-s1 (>= 3.3.1), libopencv-contrib410 (>= 4.10.0+dfsg), libopencv-core410 (>= 4.10.0+dfsg), libopencv-highgui410 (>= 4.10.0+dfsg), libopencv-imgcodecs410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libopencv-stitching410 (>= 4.10.0+dfsg), libopencv-video410 (>= 4.10.0+dfsg), libopencv-videoio410 (>= 4.10.0+dfsg), libsodium23 (>= 1.0.10), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libwebsockets19t64 (>= 3.2.0), libzxing3 (>= 2.2.1)
+Filename: ./drone-starter_1.2.3_arm64.deb
+Size: 398204
+MD5sum: 0f44863626b0622667a428c262726721
+SHA1: 8f706e3e00207a519c86f5e7b4caf9d8d2be3d78
+SHA256: 8463f75df645ab6dfb78978c8b3b596ec52a5f466f52e8d298836c3ad7441ac5
+Section: misc
+Priority: optional
+Description: Drone core implementation.
+ This package provides the binaries.
+
 Package: libdatachannel
 Version: 0.24.2
 Architecture: arm64
