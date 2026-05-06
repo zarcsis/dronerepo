@@ -125,10 +125,10 @@ Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 337
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
 Filename: ./libmsp_3.4.0_arm64.deb
-Size: 80700
-MD5sum: 846a137ee95635dd304e1c3f7667d1df
-SHA1: 0537f201745ef45793361ddf1ed86194ccb600e4
-SHA256: 804032d9c37c43bf2f0d151f6b364d8b16a055841a00f42b276421d519d1108c
+Size: 80692
+MD5sum: 0d8716f051a67b25d751fb73a955ac49
+SHA1: 206e814852f8021d228ec34bf0dac994227de25e
+SHA256: f53c878d9ef4ca3760a87acff65caa36d6365372d0a15f1c1f62d4b203c28f82
 Section: libs
 Priority: optional
 Description: Reefwing MultiWii Serial Protocol (runtime)
@@ -140,13 +140,13 @@ Source: libmsp
 Version: 3.4.0
 Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 247
+Installed-Size: 250
 Depends: libmsp (= 3.4.0)
 Filename: ./libmsp-dev_3.4.0_arm64.deb
-Size: 33832
-MD5sum: 6c6b8119c1db360d603339f0be7a3290
-SHA1: 3eb5bd2280dc439d20d9e80a5c911aae8cb3ad92
-SHA256: 1dc1d40725ae3a99fc930d16f0809555ca6be4deae8150c880fe51a792ead1c0
+Size: 34152
+MD5sum: 67d170d54cf3492386b753c6348f7419
+SHA1: e513b9afb40ebb2ff65182fcb58b3496b6b83dc5
+SHA256: 8c37a9881fab956a21637e9aa2ac8f920997a390794e361acfbbb651b3175586
 Section: libdevel
 Priority: optional
 Description: Reefwing MultiWii Serial Protocol (development)
