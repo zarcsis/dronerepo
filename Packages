@@ -1,14 +1,14 @@
-Package: drone-starter
+Package: drone-main
 Version: 1.2.3
 Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 1498
-Depends: liblccv, libmsp, libc6 (>= 2.38), libcamera0.7 (>= 0.7.0+rpt20260205), libcurl4t64 (>= 7.16.2), libdatachannel (>= 0.24.2), libgcc-s1 (>= 3.3.1), libopencv-contrib410 (>= 4.10.0+dfsg), libopencv-core410 (>= 4.10.0+dfsg), libopencv-highgui410 (>= 4.10.0+dfsg), libopencv-imgcodecs410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libopencv-stitching410 (>= 4.10.0+dfsg), libopencv-video410 (>= 4.10.0+dfsg), libopencv-videoio410 (>= 4.10.0+dfsg), libsodium23 (>= 1.0.10), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libwebsockets19t64 (>= 3.2.0), libzxing3 (>= 2.2.1)
-Filename: ./drone-starter_1.2.3_arm64.deb
-Size: 398216
-MD5sum: 38f695f2a726e931912b3d1a7d6d9647
-SHA1: d12fbbeb8d0ec4d3d45211d8b02f4360e0179c1c
-SHA256: bb9c52912a53859932f747926887312fe5764c962f2dbb0b7338c428e7b66308
+Installed-Size: 1497
+Depends: liblccv, libmsp, libc6 (>= 2.38), libcamera0.7 (>= 0.7.1+rpt20260429), libcurl4t64 (>= 7.16.2), libdatachannel (>= 0.24.2), libgcc-s1 (>= 3.3.1), libopencv-contrib410 (>= 4.10.0+dfsg), libopencv-core410 (>= 4.10.0+dfsg), libopencv-highgui410 (>= 4.10.0+dfsg), libopencv-imgcodecs410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libopencv-stitching410 (>= 4.10.0+dfsg), libopencv-video410 (>= 4.10.0+dfsg), libopencv-videoio410 (>= 4.10.0+dfsg), libsodium23 (>= 1.0.10), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libwebsockets19t64 (>= 3.2.0), libzxing3 (>= 2.2.1)
+Filename: ./drone-main_1.2.3_arm64.deb
+Size: 400244
+MD5sum: 151a0cf9ac5f2098f354c6bf23054ba0
+SHA1: da02e333488e284bef05d97edbe42e62b1e1dc9d
+SHA256: 9c102689a0f8a2733cc07278bc8d93831172743fbc3a3ca64ab36b93475a72db
 Section: misc
 Priority: optional
 Description: Drone core implementation.
