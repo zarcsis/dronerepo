@@ -4,40 +4,40 @@ Hash: SHA512
 Architectures: arm64
 Codename: bookworm
 Components: main
-Date: Tue, 19 May 2026 22:28:16 +0000
+Date: Tue, 19 May 2026 22:33:03 +0000
 Label: dronerepo
 Origin: dronerepo
 Suite: bookworm
 MD5Sum:
- 21e403184fa9abe7838b57205d6fa387              146 Release
+ d0561a4807b0f184a8f6accc6f0a4d9a              146 Release
  d41d8cd98f00b204e9800998ecf8427e                0 main/binary-arm64/Packages
- 30b786d769cc2395aa53e6a389cb845d               29 main/binary-arm64/Packages.gz
+ 692b13e8ddae17ef8727d9504296bc8e               29 main/binary-arm64/Packages.gz
 SHA1:
- bc16cf21689c510fec9a5fc58526ce1e5db568f6              146 Release
+ 7bdaa41963608825914c923b7800d4a372b77520              146 Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-arm64/Packages
- 6afcb00fe22f969eeec550bf8e7b74deae0f0781               29 main/binary-arm64/Packages.gz
+ cb019330bb06273f0c2b38f4375bed23ca3cec11               29 main/binary-arm64/Packages.gz
 SHA256:
- 1dfc627ddf7965998eb22ab61efc1680162b5de61d5f4689745de4b6a53b7362              146 Release
+ fa0dbacde4423ec4cff0a55120e04a83af12fb77a0d01d49b2ae5d875e748d12              146 Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-arm64/Packages
- 98d61514cb4cb584b90e1e2285a8e3f1054381b0012995249249070d116c7639               29 main/binary-arm64/Packages.gz
+ 1298f00859e5641b8e05c57406c02cb906b096123343254e6e70c20e6d39d398               29 main/binary-arm64/Packages.gz
 SHA512:
- 53327eab246bffa451bc47ebd283ebf0a9af9facf78c9168a2307a5e2836f90c824b49cc424753cf6ccf0872d90555ba824386ff8eb9883b89de0fb751f69650              146 Release
+ 34f174966f2b9238c465b1bc573aeffdf0fd81e97a0f06f2dad390bb03ae4e48663774083b1e3b7e17cab4a1e734edda818d9133a0934eac49d62d1ea94e1a1c              146 Release
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-arm64/Packages
- f06c692561be5a8fa42fd57a8148937712325588521dd12bfbc156c91e25489ae5f347b0d773c95cc58e9bb3daa0741050a393198e07d09c0729c54f88f42c8d               29 main/binary-arm64/Packages.gz
+ 2a162ccd40684873897c976101da33e24086d151bc12a08162d931e82b56f2de7818976add1f635e2057c0d497a6216b6e0d9420f2da6b8a6ae7d71d63c51cd3               29 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJVBAEBCgA/FiEES1XCp9OfyKzduu5WSYbIchu28zQFAmoM5AAhHGRldmVsb3Bt
-ZW50QHNwZWNpYWwtZGVsaXZlcnkub3JnAAoJEEmGyHIbtvM054sP/1Xxg+yxBkuA
-7J27MfBuwz3uJaldXodIOza4euNAohMI/kyE0uX93GzgsYgRQgwOIUmRsY6Sezoy
-d5qOZGf9eCt3hZNQGxwkvDlGhhZ7sInrJ09Oc6l+tWb3UiJn73Rx3WcnwMsyommb
-COV8pYoiCCA4TzP0Wtxa/8qewnYy0W0k/tAIdfrV4Zstby9/gW19/5HYSvUCkY5y
-0/Kar9Lq7oNMvAAGtBrnDAbF8myuL+iQCQFtkM+vmLKEsQsmt1liEhCiGZ50CSmJ
-ss829S5Wm7SBT68G62s+6dkARdXlsWNpWn9otBSDcTZ8ogI95pJjQqbVrLZwhy47
-2fOEqU7yDh78zIJxh2qQz3cK5ecTtj8TbdOiMEfy9vNuTPnOdxHgeFzcP0rdDhHF
-YejDiXa60ve61W0xTay3tELwAsQxAFECMwkoOtroVydvclrg30KHW3il4KUgvo9/
-rmJlEOQ+IcixYrnCPDiUYhaJ6hCH4lDxZ6ZuLt3O64mTefm44HRZ5dANmgY6PvFD
-NpbfhQ/NGU8OOgRUj0CEPA1NF+smvaS84lE4JJ5G/liE2ChMDOZMQHaIVcX0iULE
-99o53ROLutzKWOSb5TkrWccXdrV8KimhKL7gnV0m7XusMM2PQ8UuxEm9EOm7g+6U
-FtLQZonLWAyoo+Rf+S+xewfWkhS6ppx5
-=A6wA
+iQJVBAEBCgA/FiEES1XCp9OfyKzduu5WSYbIchu28zQFAmoM5R8hHGRldmVsb3Bt
+ZW50QHNwZWNpYWwtZGVsaXZlcnkub3JnAAoJEEmGyHIbtvM0DQQP/09bmDL+6bJZ
+/2PgPfWAiFhhkAsDR4fChBX9t5xjtBAXv1ExXpy2PSCKLsQ/Boipe1J+i5IXgsHW
+sHbnzZcXICHa1/A7mo1eTJFuGB/6bqvFm9JTaBbvjdszop4Q3xjcXmB5z6CM+Gyq
+09SJvfuGPvI1HYRd+fhjV+U+IeFDrxnEs/hgf5Ibk2m9ZzHH2NscgpaYJKxHnnAE
+bLxRDeJbJhBtc3u1FO0RXdj5+ev3cvtPRnAxOQc67yVSwSu4pW8X8ua03kRYHAGV
+2BH4bB5jKkpgAYxU4jnu2p0RNGMyqQO3JSOmPTgEoZCOXD6yPh1WQZCYfWeebynH
+ABKk4GpY0a42+h7h/RNLY0zGlm8cJxGEuvsyNjmyj30+QdS9pWLP5zIYxZJxRoJr
+l5AoPZGkajmqR732O57gKhhxB9fPwTAkAGgHoCUSszvCXOgfYtMoh90tPsaUHvAu
+iDcnSvjC/3omOVOadsaXamLyFp8T1kFyrtaqmEuU9SDFsUNlKgdFZZo0Rl8PjPP2
+c+nMleJzYOd45eG/K+30Wk9ApqCbvSr9GdK5gqmK84QVSM096DGUrw0dkGBwoojN
+Bo9G7Zslh+x+iBLRtwC098/+ZVfwMrEC18FnTy9S8shObibrGxW1ptTesXqAx+U7
+s1VCpjoVe+x/pX1lf17EyTZNpp9V7FDq
+=U7kS
 -----END PGP SIGNATURE-----

@@ -4,20 +4,44 @@
 <meta charset="utf-8">
 <title>dronerepo</title>
 <style>
-  body { font-family: system-ui, -apple-system, sans-serif; max-width: 960px; margin: 2em auto; padding: 0 1em; color: #222; line-height: 1.45; }
+  :root {
+    --bg: #ffffff;
+    --fg: #222222;
+    --muted: #888888;
+    --border: #eeeeee;
+    --rule: #dddddd;
+    --code-bg: #f4f4f4;
+    --th-bg: #fafafa;
+    --link: #0366d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117;
+      --fg: #e6edf3;
+      --muted: #8b949e;
+      --border: #21262d;
+      --rule: #30363d;
+      --code-bg: #161b22;
+      --th-bg: #161b22;
+      --link: #58a6ff;
+    }
+  }
+  html, body { background: var(--bg); color: var(--fg); }
+  body { font-family: system-ui, -apple-system, sans-serif; max-width: 960px; margin: 2em auto; padding: 0 1em; line-height: 1.45; }
   h1 { margin-bottom: 0.1em; }
-  h2 { margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.2em; }
-  code { background: #f4f4f4; padding: 0.1em 0.35em; border-radius: 3px; font-size: 0.92em; }
-  pre { background: #f4f4f4; padding: 0.8em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.9em; }
+  h2 { margin-top: 2em; border-bottom: 1px solid var(--rule); padding-bottom: 0.2em; }
+  code { background: var(--code-bg); padding: 0.1em 0.35em; border-radius: 3px; font-size: 0.92em; }
+  pre { background: var(--code-bg); padding: 0.8em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.9em; }
   table { border-collapse: collapse; width: 100%; margin-top: 0.5em; font-size: 0.93em; }
-  th, td { text-align: left; padding: 0.45em 0.7em; border-bottom: 1px solid #eee; }
-  th { background: #fafafa; font-weight: 600; }
+  th, td { text-align: left; padding: 0.45em 0.7em; border-bottom: 1px solid var(--border); }
+  th { background: var(--th-bg); font-weight: 600; }
   td.size { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
-  a { color: #0366d6; text-decoration: none; }
+  a { color: var(--link); text-decoration: none; }
   a:hover { text-decoration: underline; }
-  .empty { color: #888; font-style: italic; }
-  .meta { margin-top: 3em; color: #888; font-size: 0.85em; }
+  .empty { color: var(--muted); font-style: italic; }
+  .meta { margin-top: 3em; color: var(--muted); font-size: 0.85em; }
 </style>
+<meta name="color-scheme" content="light dark">
 </head>
 <body>
 <h1>dronerepo</h1>
@@ -49,5 +73,5 @@ sudo apt update</pre>
 <tr><td><code>libmsp</code></td><td>3.4.0</td><td>arm64</td><td class="size">78.9KB</td><td><a href="pool/trixie/main/libmsp_3.4.0_arm64.deb">libmsp_3.4.0_arm64.deb</a></td></tr>
 </tbody></table>
 
-<p class="meta">Generated 2026-05-19 22:28 UTC</p>
+<p class="meta">Generated 2026-05-19 22:33 UTC</p>
 </body></html>
