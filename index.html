@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>dronerepo</title>
+<style>
+  body { font-family: system-ui, -apple-system, sans-serif; max-width: 960px; margin: 2em auto; padding: 0 1em; color: #222; line-height: 1.45; }
+  h1 { margin-bottom: 0.1em; }
+  h2 { margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.2em; }
+  code { background: #f4f4f4; padding: 0.1em 0.35em; border-radius: 3px; font-size: 0.92em; }
+  pre { background: #f4f4f4; padding: 0.8em 1em; border-radius: 4px; overflow-x: auto; font-size: 0.9em; }
+  table { border-collapse: collapse; width: 100%; margin-top: 0.5em; font-size: 0.93em; }
+  th, td { text-align: left; padding: 0.45em 0.7em; border-bottom: 1px solid #eee; }
+  th { background: #fafafa; font-weight: 600; }
+  td.size { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  a { color: #0366d6; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .empty { color: #888; font-style: italic; }
+  .meta { margin-top: 3em; color: #888; font-size: 0.85em; }
+</style>
+</head>
+<body>
+<h1>dronerepo</h1>
+<p>Debian package repository for <code>bookworm</code> and <code>trixie</code>.</p>
+
+<h2>Setup</h2>
+<pre>curl -fsSL https://zarcsis.github.io/dronerepo/repo.key | sudo tee /etc/apt/trusted.gpg.d/dronerepo.asc &gt; /dev/null
+echo "deb https://zarcsis.github.io/dronerepo/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/dronerepo.list
+sudo apt update</pre>
+<p>Signing key: <a href="repo.key">repo.key</a></p>
+
+<h2>bookworm</h2>
+<p class="empty">No packages yet.</p>
+
+<h2>trixie</h2>
+<table>
+<thead><tr><th>Package</th><th>Version</th><th>Arch</th><th class="size">Size</th><th>Download</th></tr></thead>
+<tbody>
+<tr><td><code>drone-main</code></td><td>1.2.3</td><td>arm64</td><td class="size">390.9KB</td><td><a href="pool/trixie/main/drone-main_1.2.3_arm64.deb">drone-main_1.2.3_arm64.deb</a></td></tr>
+<tr><td><code>libdatachannel-dev</code></td><td>0.24.2</td><td>arm64</td><td class="size">26.8KB</td><td><a href="pool/trixie/main/libdatachannel-dev_0.24.2_arm64.deb">libdatachannel-dev_0.24.2_arm64.deb</a></td></tr>
+<tr><td><code>libdatachannel-doc</code></td><td>0.24.2</td><td>all</td><td class="size">14.2KB</td><td><a href="pool/trixie/main/libdatachannel-doc_0.24.2_all.deb">libdatachannel-doc_0.24.2_all.deb</a></td></tr>
+<tr><td><code>libdatachannel</code></td><td>0.24.2</td><td>arm64</td><td class="size">797.0KB</td><td><a href="pool/trixie/main/libdatachannel_0.24.2_arm64.deb">libdatachannel_0.24.2_arm64.deb</a></td></tr>
+<tr><td><code>liblccv-dev</code></td><td>0.0.1</td><td>arm64</td><td class="size">5.8KB</td><td><a href="pool/trixie/main/liblccv-dev_0.0.1_arm64.deb">liblccv-dev_0.0.1_arm64.deb</a></td></tr>
+<tr><td><code>liblccv-doc</code></td><td>0.0.1</td><td>all</td><td class="size">2.5KB</td><td><a href="pool/trixie/main/liblccv-doc_0.0.1_all.deb">liblccv-doc_0.0.1_all.deb</a></td></tr>
+<tr><td><code>liblccv</code></td><td>0.0.1</td><td>arm64</td><td class="size">36.0KB</td><td><a href="pool/trixie/main/liblccv_0.0.1_arm64.deb">liblccv_0.0.1_arm64.deb</a></td></tr>
+<tr><td><code>libmavlink-cpp-dev</code></td><td>0.0.1</td><td>arm64</td><td class="size">394.0KB</td><td><a href="pool/trixie/main/libmavlink-cpp-dev_0.0.1_arm64.deb">libmavlink-cpp-dev_0.0.1_arm64.deb</a></td></tr>
+<tr><td><code>libmsp-dev</code></td><td>3.4.0</td><td>arm64</td><td class="size">33.4KB</td><td><a href="pool/trixie/main/libmsp-dev_3.4.0_arm64.deb">libmsp-dev_3.4.0_arm64.deb</a></td></tr>
+<tr><td><code>libmsp-doc</code></td><td>3.4.0</td><td>all</td><td class="size">4.5KB</td><td><a href="pool/trixie/main/libmsp-doc_3.4.0_all.deb">libmsp-doc_3.4.0_all.deb</a></td></tr>
+<tr><td><code>libmsp</code></td><td>3.4.0</td><td>arm64</td><td class="size">78.9KB</td><td><a href="pool/trixie/main/libmsp_3.4.0_arm64.deb">libmsp_3.4.0_arm64.deb</a></td></tr>
+</tbody></table>
+
+<p class="meta">Generated 2026-05-19 22:28 UTC</p>
+</body></html>
