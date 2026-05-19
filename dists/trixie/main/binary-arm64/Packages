@@ -4,7 +4,7 @@ Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 1497
 Depends: liblccv, libmsp, libc6 (>= 2.38), libcamera0.7 (>= 0.7.1+rpt20260429), libcurl4t64 (>= 7.16.2), libdatachannel (>= 0.24.2), libgcc-s1 (>= 3.3.1), libopencv-contrib410 (>= 4.10.0+dfsg), libopencv-core410 (>= 4.10.0+dfsg), libopencv-highgui410 (>= 4.10.0+dfsg), libopencv-imgcodecs410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libopencv-stitching410 (>= 4.10.0+dfsg), libopencv-video410 (>= 4.10.0+dfsg), libopencv-videoio410 (>= 4.10.0+dfsg), libsodium23 (>= 1.0.10), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libwebsockets19t64 (>= 3.2.0), libzxing3 (>= 2.2.1)
-Filename: ./drone-main_1.2.3_arm64.deb
+Filename: pool/trixie/main/drone-main_1.2.3_arm64.deb
 Size: 400244
 MD5sum: 151a0cf9ac5f2098f354c6bf23054ba0
 SHA1: da02e333488e284bef05d97edbe42e62b1e1dc9d
@@ -20,7 +20,7 @@ Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 3172
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14)
-Filename: ./libdatachannel_0.24.2_arm64.deb
+Filename: pool/trixie/main/libdatachannel_0.24.2_arm64.deb
 Size: 816112
 MD5sum: 55de782e6014d5c1770c9e2dfe7726f3
 SHA1: 59d95a13674e55023602036ead9cb0c01209657d
@@ -38,7 +38,7 @@ Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 157
 Depends: libdatachannel (= 0.24.2)
-Filename: ./libdatachannel-dev_0.24.2_arm64.deb
+Filename: pool/trixie/main/libdatachannel-dev_0.24.2_arm64.deb
 Size: 27428
 MD5sum: 44f05c96e6fe793a57a04dc8b6a1452a
 SHA1: fc8a82f48ce28402998ef5793e6538bb37ad977a
@@ -55,7 +55,7 @@ Version: 0.24.2
 Architecture: all
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 25
-Filename: ./libdatachannel-doc_0.24.2_all.deb
+Filename: pool/trixie/main/libdatachannel-doc_0.24.2_all.deb
 Size: 14528
 MD5sum: 003e6714885e0370cbcaf082d3179493
 SHA1: 3dbcd301355e167e0f24b9f08847a425e85f86b0
@@ -72,7 +72,7 @@ Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 142
 Depends: libc6 (>= 2.34), libcamera0.7 (>= 0.7.0+rpt20260205), libgcc-s1 (>= 3.0), libopencv-core410 (>= 4.10.0+dfsg), libstdc++6 (>= 13.1)
-Filename: ./liblccv_0.0.1_arm64.deb
+Filename: pool/trixie/main/liblccv_0.0.1_arm64.deb
 Size: 36820
 MD5sum: e8a8baa8552b82ecdde28be8640a5ad0
 SHA1: 026d8535d35fdd2667baaa7c1d58c50b99b5ef07
@@ -90,7 +90,7 @@ Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 25
 Depends: liblccv (= 0.0.1)
-Filename: ./liblccv-dev_0.0.1_arm64.deb
+Filename: pool/trixie/main/liblccv-dev_0.0.1_arm64.deb
 Size: 5856
 MD5sum: 1e6abf653847b147c29ecc82765d4a50
 SHA1: 8f8ace8f05cc07463723d8b33926077c9933cfcf
@@ -107,7 +107,7 @@ Version: 0.0.1
 Architecture: all
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 12
-Filename: ./liblccv-doc_0.0.1_all.deb
+Filename: pool/trixie/main/liblccv-doc_0.0.1_all.deb
 Size: 2520
 MD5sum: f626a53717ca63f540644fe3c442fb58
 SHA1: 2ace3aee6bc9e3d69f6ff98b77511c0d06878c5b
@@ -124,7 +124,7 @@ Version: 0.0.1
 Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 12632
-Filename: ./libmavlink-cpp-dev_0.0.1_arm64.deb
+Filename: pool/trixie/main/libmavlink-cpp-dev_0.0.1_arm64.deb
 Size: 403380
 MD5sum: 11c415d8af6fae3acfe68ed2d1536d7a
 SHA1: a26b8980c3516f5224b06ba33bd16e16e74ca1b0
@@ -140,7 +140,7 @@ Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 337
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
-Filename: ./libmsp_3.4.0_arm64.deb
+Filename: pool/trixie/main/libmsp_3.4.0_arm64.deb
 Size: 80692
 MD5sum: 0d8716f051a67b25d751fb73a955ac49
 SHA1: 206e814852f8021d228ec34bf0dac994227de25e
@@ -158,7 +158,7 @@ Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 250
 Depends: libmsp (= 3.4.0)
-Filename: ./libmsp-dev_3.4.0_arm64.deb
+Filename: pool/trixie/main/libmsp-dev_3.4.0_arm64.deb
 Size: 34152
 MD5sum: 67d170d54cf3492386b753c6348f7419
 SHA1: e513b9afb40ebb2ff65182fcb58b3496b6b83dc5
@@ -175,7 +175,7 @@ Version: 3.4.0
 Architecture: all
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 13
-Filename: ./libmsp-doc_3.4.0_all.deb
+Filename: pool/trixie/main/libmsp-doc_3.4.0_all.deb
 Size: 4548
 MD5sum: ca2aa87b84f3f080cc7450ba5914c59e
 SHA1: b6079ee0ca60e0fad76477bc6f5f274823d5dd32
