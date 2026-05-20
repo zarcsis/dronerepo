@@ -1,0 +1,172 @@
+Package: libdatachannel
+Version: 0.24.2
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 3044
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libssl3 (>= 3.0.0), libstdc++6 (>= 12)
+Filename: pool/bookworm/main/libdatachannel_0.24.2_arm64.deb
+Size: 786184
+MD5sum: fa2af85be18250a9f2f914a416397c8e
+SHA1: 2e351292ff16d5432d835c16e3fda2109f3afc7d
+SHA256: 4ecce063ccfe9cd7f829b192fe224d9f1ef2af34f04fa6dcfc7b181e95d7d890
+Section: libs
+Priority: optional
+Description: C/C++ WebRTC network library (runtime)
+ C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets.
+ This package provides the shared libraries.
+
+Package: libdatachannel-dev
+Source: libdatachannel
+Version: 0.24.2
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 157
+Depends: libdatachannel (= 0.24.2)
+Filename: pool/bookworm/main/libdatachannel-dev_0.24.2_arm64.deb
+Size: 27408
+MD5sum: b1b40777b458c1861ad78c385dac0bc2
+SHA1: f235cfbb8ec159a829d6cf6bd340bd421553fb9e
+SHA256: edda222310a2fb3d571cf9a33262e24ed349da8df1f08e61552c1f6d1e109594
+Section: libdevel
+Priority: optional
+Description: C/C++ WebRTC network library (development)
+ C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets.
+ This package provides the development headers and cmake config files.
+
+Package: libdatachannel-doc
+Source: libdatachannel
+Version: 0.24.2
+Architecture: all
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 25
+Filename: pool/bookworm/main/libdatachannel-doc_0.24.2_all.deb
+Size: 14528
+MD5sum: 2f12f650afa1a2b3e0b74f1b03bff878
+SHA1: 1818d29a93d3f0bd790a0ba949badd31122b33b7
+SHA256: b3d3e5d4123d1407091be71021da27857bd8bcecff52d9e0f364afc4fac14229
+Section: doc
+Priority: optional
+Description: C/C++ WebRTC network library (documentation)
+ C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets.
+ This package provides the documentation.
+
+Package: liblccv
+Version: 0.0.1
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 142
+Depends: libc6 (>= 2.34), libcamera0.5 (>= 0.5.2+rpt20250903), libgcc-s1 (>= 3.0), libopencv-core406 (>= 4.6.0+dfsg), libstdc++6 (>= 12)
+Filename: pool/bookworm/main/liblccv_0.0.1_arm64.deb
+Size: 36208
+MD5sum: 4529ed20ca6a3945fbee12c05d89d1d1
+SHA1: 970cb0f3d76835ee06089cd9f1439d1d6361a6c0
+SHA256: 558d21d289b772842679b036f33d8ddc0df742627cf31c61417f0b60c886e553
+Section: libs
+Priority: optional
+Description: LCCV (libcamera bindings for OpenCV) (runtime)
+ LCCV (libcamera bindings for OpenCV) is a small wrapper library that provides access to the Raspberry Pi camera in OpenCV.
+ This package provides the shared libraries.
+
+Package: liblccv-dev
+Source: liblccv
+Version: 0.0.1
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 25
+Depends: liblccv (= 0.0.1)
+Filename: pool/bookworm/main/liblccv-dev_0.0.1_arm64.deb
+Size: 5856
+MD5sum: ce819e26041ffa758b80adc8b5b0d70b
+SHA1: 43f2589dae899f8ea9029a6f5372508b9d78e106
+SHA256: a9f465992d1e246d0e85d5f72f7121e85ca64b75085b32973eeade731ba079b3
+Section: libdevel
+Priority: optional
+Description: LCCV (libcamera bindings for OpenCV) (development)
+ LCCV (libcamera bindings for OpenCV) is a small wrapper library that provides access to the Raspberry Pi camera in OpenCV.
+ This package provides the development headers and cmake config files.
+
+Package: liblccv-doc
+Source: liblccv
+Version: 0.0.1
+Architecture: all
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 12
+Filename: pool/bookworm/main/liblccv-doc_0.0.1_all.deb
+Size: 2520
+MD5sum: 05c6c837d1a3e7e57a0ae8fbe978b4d6
+SHA1: cfc73bb55b568e356c6f4e32f615cf553b30e7c7
+SHA256: 78f8d670a401dd350480ee2d2b00078a77d8e7ab4b062177658d35e75f10cc9a
+Section: doc
+Priority: optional
+Description: LCCV (libcamera bindings for OpenCV) (documentation)
+ LCCV (libcamera bindings for OpenCV) is a small wrapper library that provides access to the Raspberry Pi camera in OpenCV.
+ This package provides the documentation.
+
+Package: libmavlink-cpp-dev
+Source: mavlink-cpp
+Version: 0.0.1
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 12632
+Filename: pool/bookworm/main/libmavlink-cpp-dev_0.0.1_arm64.deb
+Size: 403180
+MD5sum: 360f37e8ef3a2f8e969ecd0b63605ad4
+SHA1: 7c840a7cf5feb8d7206a0bdff5cac70a8db5f839
+SHA256: 7656d7f35e7bc9d4cab365f5de0ab994cf4e19aab0f27fa1471453be0e4868e7
+Section: libs
+Priority: optional
+Description: Lightweight C++ MAVLink interface (development)
+ This package provides the development headers and cmake config files.
+
+Package: libmsp
+Version: 3.4.0
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 337
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
+Filename: pool/bookworm/main/libmsp_3.4.0_arm64.deb
+Size: 80156
+MD5sum: e65bc29a03104c0c19ceb6cf43dab17f
+SHA1: 5197590c32770baf795350efd64f35473fff4b7c
+SHA256: 49445af2c6e3279f3950d67bb978c7f48d12a1a4a7c8335147495304aadcf073
+Section: libs
+Priority: optional
+Description: Reefwing MultiWii Serial Protocol (runtime)
+ Implementation of the MultiWii Serial Protocol (MSP) for MultiWii and Cleanflight flight controller
+ This package provides the shared libraries.
+
+Package: libmsp-dev
+Source: libmsp
+Version: 3.4.0
+Architecture: arm64
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 250
+Depends: libmsp (= 3.4.0)
+Filename: pool/bookworm/main/libmsp-dev_3.4.0_arm64.deb
+Size: 34152
+MD5sum: 67d170d54cf3492386b753c6348f7419
+SHA1: e513b9afb40ebb2ff65182fcb58b3496b6b83dc5
+SHA256: 8c37a9881fab956a21637e9aa2ac8f920997a390794e361acfbbb651b3175586
+Section: libdevel
+Priority: optional
+Description: Reefwing MultiWii Serial Protocol (development)
+ Implementation of the MultiWii Serial Protocol (MSP) for MultiWii and Cleanflight flight controller
+ This package provides the development headers and cmake config files.
+
+Package: libmsp-doc
+Source: libmsp
+Version: 3.4.0
+Architecture: all
+Maintainer: special-delivery <development@special-delivery.org>
+Installed-Size: 13
+Filename: pool/bookworm/main/libmsp-doc_3.4.0_all.deb
+Size: 4548
+MD5sum: ca2aa87b84f3f080cc7450ba5914c59e
+SHA1: b6079ee0ca60e0fad76477bc6f5f274823d5dd32
+SHA256: b1e4eb862de62ab4c60a2194fa3bd082f5177730d103b92c15e14a3b156b0555
+Section: doc
+Priority: optional
+Description: Reefwing MultiWii Serial Protocol (documentation)
+ Implementation of the MultiWii Serial Protocol (MSP) for MultiWii and Cleanflight flight controller
+ This package provides the documentation.
+

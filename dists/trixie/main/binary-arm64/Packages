@@ -21,10 +21,10 @@ Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 3172
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14)
 Filename: pool/trixie/main/libdatachannel_0.24.2_arm64.deb
-Size: 816112
-MD5sum: 55de782e6014d5c1770c9e2dfe7726f3
-SHA1: 59d95a13674e55023602036ead9cb0c01209657d
-SHA256: e61f476cfd39da3b233025bbbc6908b42ec955dfa7e1fd97b4637ef4d208f33f
+Size: 816160
+MD5sum: cf3762f294494fb4e2153249d3571ab3
+SHA1: 710964a45090dbc11f1b454aa75e682ec1e3e729
+SHA256: ba90d44f60e51cd553f11a2b40d1d1698c804b07f73854debd2c46aee76a945c
 Section: libs
 Priority: optional
 Description: C/C++ WebRTC network library (runtime)
@@ -39,10 +39,10 @@ Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 157
 Depends: libdatachannel (= 0.24.2)
 Filename: pool/trixie/main/libdatachannel-dev_0.24.2_arm64.deb
-Size: 27428
-MD5sum: 44f05c96e6fe793a57a04dc8b6a1452a
-SHA1: fc8a82f48ce28402998ef5793e6538bb37ad977a
-SHA256: 7e5974cfc93d5fa7dcbd97caa7e1798fdaf765e864a7c4eeb032707ea1a9a8e1
+Size: 27424
+MD5sum: a00ddeb99dfbd0a7f4b01a95a1af701d
+SHA1: 5420d9888778ce88d9a99c03edb09d703136046b
+SHA256: fe5132bbe94b468048500b928f3cabc137e17ad46446fc3efd1d24f42f5fa088
 Section: libdevel
 Priority: optional
 Description: C/C++ WebRTC network library (development)
@@ -57,9 +57,9 @@ Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 25
 Filename: pool/trixie/main/libdatachannel-doc_0.24.2_all.deb
 Size: 14528
-MD5sum: 003e6714885e0370cbcaf082d3179493
-SHA1: 3dbcd301355e167e0f24b9f08847a425e85f86b0
-SHA256: 6d47239d1b71028866e8f829df230f0e4d461662303d508778cbac97a2add270
+MD5sum: 2f12f650afa1a2b3e0b74f1b03bff878
+SHA1: 1818d29a93d3f0bd790a0ba949badd31122b33b7
+SHA256: b3d3e5d4123d1407091be71021da27857bd8bcecff52d9e0f364afc4fac14229
 Section: doc
 Priority: optional
 Description: C/C++ WebRTC network library (documentation)
@@ -71,12 +71,12 @@ Version: 0.0.1
 Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 142
-Depends: libc6 (>= 2.34), libcamera0.7 (>= 0.7.0+rpt20260205), libgcc-s1 (>= 3.0), libopencv-core410 (>= 4.10.0+dfsg), libstdc++6 (>= 13.1)
+Depends: libc6 (>= 2.34), libcamera0.7 (>= 0.7.1+rpt20260429), libgcc-s1 (>= 3.0), libopencv-core410 (>= 4.10.0+dfsg), libstdc++6 (>= 13.1)
 Filename: pool/trixie/main/liblccv_0.0.1_arm64.deb
-Size: 36820
-MD5sum: e8a8baa8552b82ecdde28be8640a5ad0
-SHA1: 026d8535d35fdd2667baaa7c1d58c50b99b5ef07
-SHA256: 03de12fe186cebdce6cd01e06ff47cfbaf4141a71aa1c1bc929ac73697e1db44
+Size: 36812
+MD5sum: 0df3ef311323c71293c13e55bb38d74c
+SHA1: ce8fc14f4e2312d1673d9771e7833160a43d0fd3
+SHA256: 2901a1ddd909a6fd8d61ab609084f7a49ac068625977afdf8de17debeffe4828
 Section: libs
 Priority: optional
 Description: LCCV (libcamera bindings for OpenCV) (runtime)
@@ -92,9 +92,9 @@ Installed-Size: 25
 Depends: liblccv (= 0.0.1)
 Filename: pool/trixie/main/liblccv-dev_0.0.1_arm64.deb
 Size: 5856
-MD5sum: 1e6abf653847b147c29ecc82765d4a50
-SHA1: 8f8ace8f05cc07463723d8b33926077c9933cfcf
-SHA256: d417b9bd990dd547177bdfa490baaf2a7827e392a94138f749fb67ec38564cca
+MD5sum: ce819e26041ffa758b80adc8b5b0d70b
+SHA1: 43f2589dae899f8ea9029a6f5372508b9d78e106
+SHA256: a9f465992d1e246d0e85d5f72f7121e85ca64b75085b32973eeade731ba079b3
 Section: libdevel
 Priority: optional
 Description: LCCV (libcamera bindings for OpenCV) (development)
@@ -109,9 +109,9 @@ Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 12
 Filename: pool/trixie/main/liblccv-doc_0.0.1_all.deb
 Size: 2520
-MD5sum: f626a53717ca63f540644fe3c442fb58
-SHA1: 2ace3aee6bc9e3d69f6ff98b77511c0d06878c5b
-SHA256: a144eb6e1e2f1aef046cb172d16c79a59de7a447ac3034b2742b2a66f96d6d20
+MD5sum: 05c6c837d1a3e7e57a0ae8fbe978b4d6
+SHA1: cfc73bb55b568e356c6f4e32f615cf553b30e7c7
+SHA256: 78f8d670a401dd350480ee2d2b00078a77d8e7ab4b062177658d35e75f10cc9a
 Section: doc
 Priority: optional
 Description: LCCV (libcamera bindings for OpenCV) (documentation)
@@ -125,10 +125,10 @@ Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 12632
 Filename: pool/trixie/main/libmavlink-cpp-dev_0.0.1_arm64.deb
-Size: 403380
-MD5sum: 11c415d8af6fae3acfe68ed2d1536d7a
-SHA1: a26b8980c3516f5224b06ba33bd16e16e74ca1b0
-SHA256: 2a0b6d47988aa1189e5ba22191d071c2c4b9fb7088d6e74305f41859824cd2e5
+Size: 403384
+MD5sum: 1d0bf02dadf6b5b4a7d0881d52cd803b
+SHA1: cdaad10c1bb3aef11958254a4a0e8ef25e39900f
+SHA256: c7888e47a32ac9e4639d3d574fadb5a09a766bd2a41d449e3cc461ca8368a987
 Section: libs
 Priority: optional
 Description: Lightweight C++ MAVLink interface (development)
@@ -141,10 +141,10 @@ Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 337
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
 Filename: pool/trixie/main/libmsp_3.4.0_arm64.deb
-Size: 80692
-MD5sum: 0d8716f051a67b25d751fb73a955ac49
-SHA1: 206e814852f8021d228ec34bf0dac994227de25e
-SHA256: f53c878d9ef4ca3760a87acff65caa36d6365372d0a15f1c1f62d4b203c28f82
+Size: 80724
+MD5sum: e1386a809d275f9712230595b4e89088
+SHA1: dbf0e51f50bbec2442b634f4b2ff7a10836eb9c8
+SHA256: d444d7273cc476883d8df78749822b1f52ad199a801fdc6d8f67caa18b55acb0
 Section: libs
 Priority: optional
 Description: Reefwing MultiWii Serial Protocol (runtime)

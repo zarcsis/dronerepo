@@ -1,23 +1,23 @@
 Architectures: arm64
 Codename: trixie
 Components: main
-Date: Tue, 19 May 2026 22:33:03 +0000
+Date: Wed, 20 May 2026 09:53:41 +0000
 Label: dronerepo
 Origin: dronerepo
 Suite: trixie
 MD5Sum:
- 5ec0e55bf3e891d120f0115b87503eb9              142 Release
- 6cbac2389fd26d06ebe97790d47ef35e             7703 main/binary-arm64/Packages
- fabc7da66dfdc9109d1ea31b15f91b19             2201 main/binary-arm64/Packages.gz
+ 77d550af9a8c9d777733c7c99ef18898              142 Release
+ 0aa971bf366c0e095dc2a6d174f62923             7703 main/binary-arm64/Packages
+ 9e7968087c4e19a12c6b838561dbdc05             2206 main/binary-arm64/Packages.gz
 SHA1:
- 3d9967ceb116695b2fcb17d9ebb1d45ac7b2a10d              142 Release
- 54d67e157f9ff2709679b98578e41eb98b1ca423             7703 main/binary-arm64/Packages
- 561e4ddea550f715305a7a303464c0153a84f69b             2201 main/binary-arm64/Packages.gz
+ e4e5968dc2d85c6777bd8fa833cee35a980b73aa              142 Release
+ 4308daba7ed689c84e9fa314a4728197bc1cd146             7703 main/binary-arm64/Packages
+ 939d2ed5a13a5fc6e758d4c502888ed216fabb14             2206 main/binary-arm64/Packages.gz
 SHA256:
- f6339aaa513ae55e10a26c8f2da33db02fcc449f9fbb9a14b8a7fab0162828c0              142 Release
- 8b612c005b2e4fe912ea6d1273670bb2ddb93bf5771841c0f4a5d1c8f58e0577             7703 main/binary-arm64/Packages
- ccb63589d72ee94066780fc33ac6ae5f453a0efbf816d0130f66d5b2fcfb21a9             2201 main/binary-arm64/Packages.gz
+ 61ff58f30f0b3ab68cb64bd53d2803e88a09e1f66d25f4c6dc61c5db54f1850a              142 Release
+ 8588cd372d345c0cf58de0894807fae59808c54d3d3a227cae1e9dda9248d858             7703 main/binary-arm64/Packages
+ a7ea9b78c82b8a70b19bc96b5c68fb59a1a6d0bdc437bf61e4db0343b24afc82             2206 main/binary-arm64/Packages.gz
 SHA512:
- 6240f40136ad767a647c77e2c35a5553353985521bd94c2f81691246e8c691a25e3ec0898301c56580f060a46270abd4ad68104cf6c5e52ef767a795e27ad5c0              142 Release
- be3d8aa92fb0700ad4d4eeb0073802eb1a9c5ce3eb511b8d0cf6f293ac82fae53e7d7abcffb32e2dff71dc816c4bf38d474c5250b0fc71494101939acc2b5f94             7703 main/binary-arm64/Packages
- ae954b0eaf6261e533157d1a9501d0348d685a9d69356f0f7a5e6c78560d8f7f912941c64978ab73d60a8e3fc3cd1bc95865c472e7b62393d3d825caa0e97c78             2201 main/binary-arm64/Packages.gz
+ 208ff6d7f601321331364e246814897e758ef8196bf49d42de117ff2cd40fa90a0063b86cdf00168377643ddff08684fa8ef494a1b014457e5a8e333c0062b2e              142 Release
+ 51b92a7361ed36f395fcd2c9695701ccaaae22f16bc6a72451dfd140e53b2073fbe26aec93abfe3fb3743dc6cb3d27f958e853eaaa09d953e778591edc5141ab             7703 main/binary-arm64/Packages
+ 2faf74ef49dc0bee959437a73f3d99823ef300d96a7c277873af962f0088144f3f91d07315c5cde4a2c2e63bb20f2ecd390fa99041a841ccfea10be4aead36ff             2206 main/binary-arm64/Packages.gz
