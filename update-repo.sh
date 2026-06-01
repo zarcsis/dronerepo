@@ -4,7 +4,7 @@ set -e
 EMAIL="development@special-delivery.org"
 SUITES=(bookworm trixie)
 COMPONENT="main"
-ARCH="arm64"
+ARCHES=(arm64 armhf)
 ORIGIN="dronerepo"
 LABEL="dronerepo"
 REPO_URL="https://zarcsis.github.io/dronerepo/"
@@ -14,13 +14,19 @@ for SUITE in "${SUITES[@]}"; do
 
     POOL_DIR="pool/$SUITE/$COMPONENT"
     DIST_DIR="dists/$SUITE"
-    BIN_DIR="$DIST_DIR/$COMPONENT/binary-$ARCH"
 
-    mkdir -p "$POOL_DIR" "$BIN_DIR"
+    mkdir -p "$POOL_DIR"
 
-    echo "Scanning $POOL_DIR..."
-    dpkg-scanpackages --multiversion "$POOL_DIR" > "$BIN_DIR/Packages"
-    gzip -k -f "$BIN_DIR/Packages"
+    for ARCH in "${ARCHES[@]}"; do
+        BIN_DIR="$DIST_DIR/$COMPONENT/binary-$ARCH"
+        mkdir -p "$BIN_DIR"
+
+        echo "Scanning $POOL_DIR for $ARCH..."
+        # -a <arch> matches *_<arch>.deb and *_all.deb, so arch-independent
+        # packages land in every per-arch index, as a multi-arch repo expects.
+        dpkg-scanpackages --multiversion -a "$ARCH" "$POOL_DIR" > "$BIN_DIR/Packages"
+        gzip -k -f "$BIN_DIR/Packages"
+    done
 
     echo "Generating Release..."
     apt-ftparchive \
@@ -28,7 +34,7 @@ for SUITE in "${SUITES[@]}"; do
         -o "APT::FTPArchive::Release::Label=$LABEL" \
         -o "APT::FTPArchive::Release::Suite=$SUITE" \
         -o "APT::FTPArchive::Release::Codename=$SUITE" \
-        -o "APT::FTPArchive::Release::Architectures=$ARCH" \
+        -o "APT::FTPArchive::Release::Architectures=${ARCHES[*]}" \
         -o "APT::FTPArchive::Release::Components=$COMPONENT" \
         release "$DIST_DIR" > "$DIST_DIR/Release"
 

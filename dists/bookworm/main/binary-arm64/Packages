@@ -1,14 +1,14 @@
 Package: libdatachannel
-Version: 0.24.2
+Version: 0.24.3
 Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 3044
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libssl3 (>= 3.0.0), libstdc++6 (>= 12)
-Filename: pool/bookworm/main/libdatachannel_0.24.2_arm64.deb
-Size: 786184
-MD5sum: fa2af85be18250a9f2f914a416397c8e
-SHA1: 2e351292ff16d5432d835c16e3fda2109f3afc7d
-SHA256: 4ecce063ccfe9cd7f829b192fe224d9f1ef2af34f04fa6dcfc7b181e95d7d890
+Installed-Size: 3088
+Depends: libc6 (>= 2.36), libgcc-s1, libssl3 (>= 3.0.20), libstdc++6
+Filename: pool/bookworm/main/libdatachannel_0.24.3_arm64.deb
+Size: 832248
+MD5sum: 63c389cb0febb66c947c87497ab528a7
+SHA1: 7ab65c46b996efdce49b34946a6fa0ef85ffd57e
+SHA256: e36656116dfbf96f75524910b4aec03191f3b7bb16c30a887cf65029a17b0b4d
 Section: libs
 Priority: optional
 Description: C/C++ WebRTC network library (runtime)
@@ -17,16 +17,16 @@ Description: C/C++ WebRTC network library (runtime)
 
 Package: libdatachannel-dev
 Source: libdatachannel
-Version: 0.24.2
+Version: 0.24.3
 Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 157
-Depends: libdatachannel (= 0.24.2)
-Filename: pool/bookworm/main/libdatachannel-dev_0.24.2_arm64.deb
-Size: 27408
-MD5sum: b1b40777b458c1861ad78c385dac0bc2
-SHA1: f235cfbb8ec159a829d6cf6bd340bd421553fb9e
-SHA256: edda222310a2fb3d571cf9a33262e24ed349da8df1f08e61552c1f6d1e109594
+Installed-Size: 201
+Depends: libdatachannel (= 0.24.3)
+Filename: pool/bookworm/main/libdatachannel-dev_0.24.3_arm64.deb
+Size: 73380
+MD5sum: 9dacf2b161fe657f10c285102eb53e7b
+SHA1: b803fbe51b9eb52bf913ea7261a9502bcad204ac
+SHA256: 5c302d55a0f7dfddc27cd5b4ccee23cf9b0a8bdbb523fbbbfc26ebec7e635e0f
 Section: libdevel
 Priority: optional
 Description: C/C++ WebRTC network library (development)
@@ -35,15 +35,15 @@ Description: C/C++ WebRTC network library (development)
 
 Package: libdatachannel-doc
 Source: libdatachannel
-Version: 0.24.2
+Version: 0.24.3
 Architecture: all
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 25
-Filename: pool/bookworm/main/libdatachannel-doc_0.24.2_all.deb
-Size: 14528
-MD5sum: 2f12f650afa1a2b3e0b74f1b03bff878
-SHA1: 1818d29a93d3f0bd790a0ba949badd31122b33b7
-SHA256: b3d3e5d4123d1407091be71021da27857bd8bcecff52d9e0f364afc4fac14229
+Installed-Size: 69
+Filename: pool/bookworm/main/libdatachannel-doc_0.24.3_all.deb
+Size: 60388
+MD5sum: d4c6da14355405de83ed3267ca009fa5
+SHA1: 2df00214e5cb2a527e59d2f85b14cb4c082f280c
+SHA256: dc5af183bd3c2c0202e8f8c3f312ac53b781d04317eb71923306d7a8d81fb712
 Section: doc
 Priority: optional
 Description: C/C++ WebRTC network library (documentation)
@@ -51,16 +51,16 @@ Description: C/C++ WebRTC network library (documentation)
  This package provides the documentation.
 
 Package: liblccv
-Version: 0.0.1
+Version: 0.0.1+31
 Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 142
-Depends: libc6 (>= 2.34), libcamera0.5 (>= 0.5.2+rpt20250903), libgcc-s1 (>= 3.0), libopencv-core406 (>= 4.6.0+dfsg), libstdc++6 (>= 12)
-Filename: pool/bookworm/main/liblccv_0.0.1_arm64.deb
-Size: 36208
-MD5sum: 4529ed20ca6a3945fbee12c05d89d1d1
-SHA1: 970cb0f3d76835ee06089cd9f1439d1d6361a6c0
-SHA256: 558d21d289b772842679b036f33d8ddc0df742627cf31c61417f0b60c886e553
+Depends: libc6 (>= 2.36), libcamera0.5 (>= 0.5.2+rpt20250903), libgcc-s1, libopencv-core406 (>= 4.6.0+dfsg), libstdc++6
+Filename: pool/bookworm/main/liblccv_0.0.1+31_arm64.deb
+Size: 36344
+MD5sum: b949e57199940d4f750dfa01447bb614
+SHA1: f45be795787b42747cf2338ba753e1509a71b523
+SHA256: 98fbc87babb2133b38e41ccc2ace0c01032d9b04cdd2a291536914b968d2f164
 Section: libs
 Priority: optional
 Description: LCCV (libcamera bindings for OpenCV) (runtime)
@@ -69,16 +69,16 @@ Description: LCCV (libcamera bindings for OpenCV) (runtime)
 
 Package: liblccv-dev
 Source: liblccv
-Version: 0.0.1
+Version: 0.0.1+31
 Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 25
-Depends: liblccv (= 0.0.1)
-Filename: pool/bookworm/main/liblccv-dev_0.0.1_arm64.deb
-Size: 5856
-MD5sum: ce819e26041ffa758b80adc8b5b0d70b
-SHA1: 43f2589dae899f8ea9029a6f5372508b9d78e106
-SHA256: a9f465992d1e246d0e85d5f72f7121e85ca64b75085b32973eeade731ba079b3
+Depends: liblccv (= 0.0.1+31)
+Filename: pool/bookworm/main/liblccv-dev_0.0.1+31_arm64.deb
+Size: 6416
+MD5sum: 95e860fc5a47399e14991526a2e9e0f8
+SHA1: 2c4d2596527ff684ad39e48be6e1f4132300769c
+SHA256: dcd35776945d7df23496bc3bc3ad93b86bbe075cf552ac807f6daf9af1f9b858
 Section: libdevel
 Priority: optional
 Description: LCCV (libcamera bindings for OpenCV) (development)
@@ -87,15 +87,15 @@ Description: LCCV (libcamera bindings for OpenCV) (development)
 
 Package: liblccv-doc
 Source: liblccv
-Version: 0.0.1
+Version: 0.0.1+31
 Architecture: all
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 12
-Filename: pool/bookworm/main/liblccv-doc_0.0.1_all.deb
-Size: 2520
-MD5sum: 05c6c837d1a3e7e57a0ae8fbe978b4d6
-SHA1: cfc73bb55b568e356c6f4e32f615cf553b30e7c7
-SHA256: 78f8d670a401dd350480ee2d2b00078a77d8e7ab4b062177658d35e75f10cc9a
+Filename: pool/bookworm/main/liblccv-doc_0.0.1+31_all.deb
+Size: 3072
+MD5sum: bf4eafc601b842ce645a2cee28132950
+SHA1: 4de7cd9e9e4d1f9249c1588e6a4f9aae286bb838
+SHA256: dd0f942de603461170bff9f78608bd4f0e71dbabf4233a2a16fc8a65fd445059
 Section: doc
 Priority: optional
 Description: LCCV (libcamera bindings for OpenCV) (documentation)
@@ -104,31 +104,31 @@ Description: LCCV (libcamera bindings for OpenCV) (documentation)
 
 Package: libmavlink-cpp-dev
 Source: mavlink-cpp
-Version: 0.0.1
+Version: 0.0.1+53
 Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 12632
-Filename: pool/bookworm/main/libmavlink-cpp-dev_0.0.1_arm64.deb
-Size: 403180
-MD5sum: 360f37e8ef3a2f8e969ecd0b63605ad4
-SHA1: 7c840a7cf5feb8d7206a0bdff5cac70a8db5f839
-SHA256: 7656d7f35e7bc9d4cab365f5de0ab994cf4e19aab0f27fa1471453be0e4868e7
+Installed-Size: 13369
+Filename: pool/bookworm/main/libmavlink-cpp-dev_0.0.1+53_arm64.deb
+Size: 404268
+MD5sum: cf9510d9b876b2376b9d8e3cd0a9b18d
+SHA1: d63edea8acf1fa2adac771f201f4c88f3bf42674
+SHA256: 3fc66976fe287949da294a6bb9b67dba8f3761e957ed181b0d37cda63ac7e345
 Section: libs
 Priority: optional
 Description: Lightweight C++ MAVLink interface (development)
  This package provides the development headers and cmake config files.
 
 Package: libmsp
-Version: 3.4.0
+Version: 3.3.0+47
 Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 337
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
-Filename: pool/bookworm/main/libmsp_3.4.0_arm64.deb
-Size: 80156
-MD5sum: e65bc29a03104c0c19ceb6cf43dab17f
-SHA1: 5197590c32770baf795350efd64f35473fff4b7c
-SHA256: 49445af2c6e3279f3950d67bb978c7f48d12a1a4a7c8335147495304aadcf073
+Installed-Size: 338
+Depends: libc6 (>= 2.36), libgcc-s1, libstdc++6
+Filename: pool/bookworm/main/libmsp_3.3.0+47_arm64.deb
+Size: 81880
+MD5sum: ef4451a0f3947045433bf7d21bba0940
+SHA1: 7ef57a608c33193a79cd964a519f0b9b4a50657c
+SHA256: 90c77cee95cc9e5fbb9eaea3c4ef618ba729a5f4f3b214e45bdcd1a1c473bfe3
 Section: libs
 Priority: optional
 Description: Reefwing MultiWii Serial Protocol (runtime)
@@ -137,16 +137,16 @@ Description: Reefwing MultiWii Serial Protocol (runtime)
 
 Package: libmsp-dev
 Source: libmsp
-Version: 3.4.0
+Version: 3.3.0+47
 Architecture: arm64
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 250
-Depends: libmsp (= 3.4.0)
-Filename: pool/bookworm/main/libmsp-dev_3.4.0_arm64.deb
-Size: 34152
-MD5sum: 67d170d54cf3492386b753c6348f7419
-SHA1: e513b9afb40ebb2ff65182fcb58b3496b6b83dc5
-SHA256: 8c37a9881fab956a21637e9aa2ac8f920997a390794e361acfbbb651b3175586
+Installed-Size: 251
+Depends: libmsp (= 3.3.0+47)
+Filename: pool/bookworm/main/libmsp-dev_3.3.0+47_arm64.deb
+Size: 35856
+MD5sum: 4dbfd4542dc181c94ad3a80a96cd2100
+SHA1: 8f12f6338eee7c6a6c5abb65ed0a3b8cf4fe0ec6
+SHA256: 9c8694ef8703072ca89711f82af973af88c69dcad1af1ee33819093e8d6ef6c8
 Section: libdevel
 Priority: optional
 Description: Reefwing MultiWii Serial Protocol (development)
@@ -155,15 +155,15 @@ Description: Reefwing MultiWii Serial Protocol (development)
 
 Package: libmsp-doc
 Source: libmsp
-Version: 3.4.0
+Version: 3.3.0+47
 Architecture: all
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 13
-Filename: pool/bookworm/main/libmsp-doc_3.4.0_all.deb
-Size: 4548
-MD5sum: ca2aa87b84f3f080cc7450ba5914c59e
-SHA1: b6079ee0ca60e0fad76477bc6f5f274823d5dd32
-SHA256: b1e4eb862de62ab4c60a2194fa3bd082f5177730d103b92c15e14a3b156b0555
+Installed-Size: 14
+Filename: pool/bookworm/main/libmsp-doc_3.3.0+47_all.deb
+Size: 6252
+MD5sum: dc9c1d91d933fff93becd6b60cf2843d
+SHA1: ef0ef9dca581658e11c74630ee3cf442f1e960aa
+SHA256: 3139b9f1bce9e9cc1c7dd29e4dc85c7cb051ac71d53870c3242dcc71389644f6
 Section: doc
 Priority: optional
 Description: Reefwing MultiWii Serial Protocol (documentation)

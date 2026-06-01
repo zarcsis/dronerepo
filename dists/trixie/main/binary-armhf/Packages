@@ -1,14 +1,14 @@
 Package: libdatachannel
 Version: 0.24.3
-Architecture: arm64
+Architecture: armhf
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 3216
+Installed-Size: 2376
 Depends: libc6 (>= 2.41), libgcc-s1, libssl3t64 (>= 3.5.6), libstdc++6
-Filename: pool/trixie/main/libdatachannel_0.24.3_arm64.deb
-Size: 865344
-MD5sum: 7a34924fbd0d089801a1093394cfec30
-SHA1: ece91878d96bc0a642bd3ba250c5f5ff1720178b
-SHA256: ae1ccdcbff5c1cb6f7b8ccd219588681257606be857f49bb0f6c92e7f9dcf0b9
+Filename: pool/trixie/main/libdatachannel_0.24.3_armhf.deb
+Size: 850400
+MD5sum: 2a7310f11e956cbb9e5b0b4059f3b7c6
+SHA1: 3606cf8233b84e818d85ce6fc30a750ddf24a3ed
+SHA256: 793c762cbaa96e09178407819af376cb575664ee11beed55f114776b9b9e6bb1
 Section: libs
 Priority: optional
 Description: C/C++ WebRTC network library (runtime)
@@ -18,15 +18,15 @@ Description: C/C++ WebRTC network library (runtime)
 Package: libdatachannel-dev
 Source: libdatachannel
 Version: 0.24.3
-Architecture: arm64
+Architecture: armhf
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 201
 Depends: libdatachannel (= 0.24.3)
-Filename: pool/trixie/main/libdatachannel-dev_0.24.3_arm64.deb
-Size: 73396
-MD5sum: 38661eb628a6c8be4667f3b80cc8d828
-SHA1: bb275aac3309b4ce96a83b9eaf64c2362c2a87d4
-SHA256: 5aa9349e24fef965032b6735111c36986f0bdcce7b8f1f163407ae7cb6ee7ac6
+Filename: pool/trixie/main/libdatachannel-dev_0.24.3_armhf.deb
+Size: 73392
+MD5sum: f9286223756c6c744a5d590de0ed9406
+SHA1: 1e326d2cc5ff12422a9ab53a71e8869e345542f9
+SHA256: 183b31b52fa95d200ee65523fbea985261032b6cce80924655066603d7c5c02f
 Section: libdevel
 Priority: optional
 Description: C/C++ WebRTC network library (development)
@@ -52,15 +52,15 @@ Description: C/C++ WebRTC network library (documentation)
 
 Package: liblccv
 Version: 0.0.1+31
-Architecture: arm64
+Architecture: armhf
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 142
+Installed-Size: 141
 Depends: libc6 (>= 2.41), libcamera0.7 (>= 0.7.1+rpt20260429), libgcc-s1, libopencv-core410 (>= 4.10.0+dfsg), libstdc++6
-Filename: pool/trixie/main/liblccv_0.0.1+31_arm64.deb
-Size: 37360
-MD5sum: 57663da72b5f93937662ff32e2263162
-SHA1: a69604791931007ea9570c6c99b7673e40f5b081
-SHA256: 43a1a4843a3bc21831f90553847f649cfaee0eae3653789a9885824524a8a95e
+Filename: pool/trixie/main/liblccv_0.0.1+31_armhf.deb
+Size: 35780
+MD5sum: cc1b24034ff7e4ec5673a6e803e056f2
+SHA1: 9d91907fb333fd778d80ad544b4eb861460b1a20
+SHA256: 1909df916b4bb91d5f5a2843d5015968d31e1ac493c11b864fa61350cbc71eb3
 Section: libs
 Priority: optional
 Description: LCCV (libcamera bindings for OpenCV) (runtime)
@@ -70,15 +70,15 @@ Description: LCCV (libcamera bindings for OpenCV) (runtime)
 Package: liblccv-dev
 Source: liblccv
 Version: 0.0.1+31
-Architecture: arm64
+Architecture: armhf
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 25
 Depends: liblccv (= 0.0.1+31)
-Filename: pool/trixie/main/liblccv-dev_0.0.1+31_arm64.deb
+Filename: pool/trixie/main/liblccv-dev_0.0.1+31_armhf.deb
 Size: 6416
-MD5sum: 95e860fc5a47399e14991526a2e9e0f8
-SHA1: 2c4d2596527ff684ad39e48be6e1f4132300769c
-SHA256: dcd35776945d7df23496bc3bc3ad93b86bbe075cf552ac807f6daf9af1f9b858
+MD5sum: 3e3bcce63b621c57a4b5dd0c461ac426
+SHA1: 8829be42bd562f641566ec1963687a88b7cd05a8
+SHA256: 170e82a1625d40b9c31cb60ff0503944bf84832786cb93c7e0271ca6fb3099af
 Section: libdevel
 Priority: optional
 Description: LCCV (libcamera bindings for OpenCV) (development)
@@ -105,14 +105,14 @@ Description: LCCV (libcamera bindings for OpenCV) (documentation)
 Package: libmavlink-cpp-dev
 Source: mavlink-cpp
 Version: 0.0.1+53
-Architecture: arm64
+Architecture: armhf
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 13371
-Filename: pool/trixie/main/libmavlink-cpp-dev_0.0.1+53_arm64.deb
-Size: 404476
-MD5sum: 53f377461731e4a49d1780931c052d6e
-SHA1: dc71fb59c66b27a2c269cb1557cd531f4323f13d
-SHA256: cf02b7992401db99a50d8e9d0db794f6dbe96fd278c4264aab4297529f565f77
+Installed-Size: 13339
+Filename: pool/trixie/main/libmavlink-cpp-dev_0.0.1+53_armhf.deb
+Size: 403496
+MD5sum: 4b1218190c090d6744837249d70313a5
+SHA1: 4f2fbf15653cc416f92b288536cecf8372c090ba
+SHA256: a216c35fe51f0438849be207569166f1e536c1b69ac1c30b35395e004076b914
 Section: libs
 Priority: optional
 Description: Lightweight C++ MAVLink interface (development)
@@ -120,15 +120,15 @@ Description: Lightweight C++ MAVLink interface (development)
 
 Package: libmsp
 Version: 3.3.0+47
-Architecture: arm64
+Architecture: armhf
 Maintainer: special-delivery <development@special-delivery.org>
-Installed-Size: 338
+Installed-Size: 336
 Depends: libc6 (>= 2.41), libgcc-s1, libstdc++6
-Filename: pool/trixie/main/libmsp_3.3.0+47_arm64.deb
-Size: 82508
-MD5sum: e9322d5555b75a7a33f5c140fdb5e1d4
-SHA1: 3c530cf843ecd24b6a400a7f3ced7fe12b9d9c7c
-SHA256: a4d56626eefa5dfa4f476add88346a66adad2b728aca2de1e21582dc3bfa9626
+Filename: pool/trixie/main/libmsp_3.3.0+47_armhf.deb
+Size: 77844
+MD5sum: 5cfd8f992f6d33064b27549202bbee63
+SHA1: be92324c36251ee8d1aa02af94ffb6bfe3a1a9fc
+SHA256: 79bb8f91c06f94057b15078a3821e74a6876b0359b14f5e01fb8b3121449249c
 Section: libs
 Priority: optional
 Description: Reefwing MultiWii Serial Protocol (runtime)
@@ -138,15 +138,15 @@ Description: Reefwing MultiWii Serial Protocol (runtime)
 Package: libmsp-dev
 Source: libmsp
 Version: 3.3.0+47
-Architecture: arm64
+Architecture: armhf
 Maintainer: special-delivery <development@special-delivery.org>
 Installed-Size: 251
 Depends: libmsp (= 3.3.0+47)
-Filename: pool/trixie/main/libmsp-dev_3.3.0+47_arm64.deb
+Filename: pool/trixie/main/libmsp-dev_3.3.0+47_armhf.deb
 Size: 35856
-MD5sum: 4dbfd4542dc181c94ad3a80a96cd2100
-SHA1: 8f12f6338eee7c6a6c5abb65ed0a3b8cf4fe0ec6
-SHA256: 9c8694ef8703072ca89711f82af973af88c69dcad1af1ee33819093e8d6ef6c8
+MD5sum: 0fa9bb26f627cf4ec929666ef3453af0
+SHA1: 992ffe14f51d6f16250892101409033955ccede1
+SHA256: ad037472e7177de4b412067157ac4d937f5e480ba1e2dd01a2efa8c4b0512c88
 Section: libdevel
 Priority: optional
 Description: Reefwing MultiWii Serial Protocol (development)
